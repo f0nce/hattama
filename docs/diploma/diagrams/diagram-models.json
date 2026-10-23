@@ -1,0 +1,794 @@
+{
+  "system-context": {
+    "name": "system-context",
+    "title": "Hattama: local application context",
+    "width": 1200,
+    "height": 760,
+    "nodes": [
+      {
+        "id": "u",
+        "x": 35,
+        "y": 210,
+        "w": 230,
+        "h": 130,
+        "label": "Meeting coordinator\nUpload and review",
+        "kind": "box"
+      },
+      {
+        "id": "s",
+        "x": 400,
+        "y": 180,
+        "w": 430,
+        "h": 245,
+        "label": "Hattama workstation\nKazakh / Russian audio\nLocal neural processing\nSource-linked tasks\nHuman correction",
+        "kind": "system"
+      },
+      {
+        "id": "r",
+        "x": 945,
+        "y": 210,
+        "w": 220,
+        "h": 130,
+        "label": "DOCX minutes\nSaved review revision",
+        "kind": "box"
+      },
+      {
+        "id": "m",
+        "x": 400,
+        "y": 535,
+        "w": 430,
+        "h": 90,
+        "label": "Maintainer\nSet up models and launch services",
+        "kind": "box"
+      },
+      {
+        "id": "a",
+        "x": 35,
+        "y": 465,
+        "w": 230,
+        "h": 95,
+        "label": "Permitted recording\nWAV / MP3 / M4A / FLAC",
+        "kind": "box"
+      }
+    ],
+    "edges": [
+      {
+        "from": "u",
+        "to": "s",
+        "label": "Local browser",
+        "label_pos": [
+          330,
+          260
+        ]
+      },
+      {
+        "from": "s",
+        "to": "r",
+        "label": "Export",
+        "label_pos": [
+          885,
+          260
+        ]
+      },
+      {
+        "from": "m",
+        "to": "s",
+        "label": "Configuration",
+        "label_pos": [
+          735,
+          490
+        ]
+      },
+      {
+        "from": "a",
+        "to": "s",
+        "points": [
+          [
+            265,
+            512
+          ],
+          [
+            330,
+            512
+          ],
+          [
+            330,
+            365
+          ],
+          [
+            400,
+            365
+          ]
+        ],
+        "label": "Upload",
+        "label_pos": [
+          330,
+          465
+        ]
+      }
+    ],
+    "notes": [
+      "Implemented baseline: local upload workflow; model weights are installed before processing.",
+      "Live provider connection, remote accounts and formal approval are planned extensions."
+    ]
+  },
+  "use-cases": {
+    "name": "use-cases",
+    "title": "Hattama: implemented use cases",
+    "width": 1200,
+    "height": 930,
+    "nodes": [
+      {
+        "id": "b",
+        "x": 280,
+        "y": 90,
+        "w": 860,
+        "h": 720,
+        "label": "Local Hattama application",
+        "kind": "container"
+      },
+      {
+        "id": "u",
+        "x": 30,
+        "y": 280,
+        "w": 180,
+        "h": 140,
+        "label": "Local user",
+        "kind": "actor"
+      },
+      {
+        "id": "m",
+        "x": 30,
+        "y": 675,
+        "w": 180,
+        "h": 140,
+        "label": "Maintainer",
+        "kind": "actor"
+      },
+      {
+        "id": "a",
+        "x": 340,
+        "y": 160,
+        "w": 300,
+        "h": 70,
+        "label": "Upload audio and context",
+        "kind": "usecase"
+      },
+      {
+        "id": "b1",
+        "x": 760,
+        "y": 160,
+        "w": 300,
+        "h": 70,
+        "label": "View processing status",
+        "kind": "usecase"
+      },
+      {
+        "id": "c",
+        "x": 340,
+        "y": 310,
+        "w": 300,
+        "h": 70,
+        "label": "Read original transcript",
+        "kind": "usecase"
+      },
+      {
+        "id": "d",
+        "x": 760,
+        "y": 310,
+        "w": 300,
+        "h": 70,
+        "label": "Map speaker labels",
+        "kind": "usecase"
+      },
+      {
+        "id": "e",
+        "x": 340,
+        "y": 460,
+        "w": 300,
+        "h": 70,
+        "label": "Edit tasks and summary",
+        "kind": "usecase"
+      },
+      {
+        "id": "f",
+        "x": 760,
+        "y": 460,
+        "w": 300,
+        "h": 70,
+        "label": "Export saved DOCX",
+        "kind": "usecase"
+      },
+      {
+        "id": "g",
+        "x": 340,
+        "y": 610,
+        "w": 300,
+        "h": 70,
+        "label": "Retry failed / delete",
+        "kind": "usecase"
+      },
+      {
+        "id": "h",
+        "x": 760,
+        "y": 700,
+        "w": 300,
+        "h": 70,
+        "label": "Configure local models",
+        "kind": "usecase"
+      }
+    ],
+    "edges": [
+      {
+        "from": "u",
+        "to": "a",
+        "arrow": false,
+        "points": [
+          [
+            145,
+            323
+          ],
+          [
+            250,
+            330
+          ],
+          [
+            250,
+            195
+          ],
+          [
+            340,
+            195
+          ]
+        ]
+      },
+      {
+        "from": "u",
+        "to": "b1",
+        "arrow": false,
+        "points": [
+          [
+            145,
+            323
+          ],
+          [
+            245,
+            330
+          ],
+          [
+            245,
+            130
+          ],
+          [
+            910,
+            130
+          ],
+          [
+            910,
+            160
+          ]
+        ]
+      },
+      {
+        "from": "u",
+        "to": "c",
+        "arrow": false,
+        "points": [
+          [
+            145,
+            323
+          ],
+          [
+            340,
+            345
+          ]
+        ]
+      },
+      {
+        "from": "u",
+        "to": "d",
+        "arrow": false,
+        "points": [
+          [
+            145,
+            323
+          ],
+          [
+            250,
+            350
+          ],
+          [
+            250,
+            275
+          ],
+          [
+            910,
+            275
+          ],
+          [
+            910,
+            310
+          ]
+        ]
+      },
+      {
+        "from": "u",
+        "to": "e",
+        "arrow": false,
+        "points": [
+          [
+            145,
+            323
+          ],
+          [
+            250,
+            370
+          ],
+          [
+            250,
+            495
+          ],
+          [
+            340,
+            495
+          ]
+        ]
+      },
+      {
+        "from": "u",
+        "to": "f",
+        "arrow": false,
+        "points": [
+          [
+            145,
+            323
+          ],
+          [
+            235,
+            370
+          ],
+          [
+            235,
+            420
+          ],
+          [
+            910,
+            420
+          ],
+          [
+            910,
+            460
+          ]
+        ]
+      },
+      {
+        "from": "u",
+        "to": "g",
+        "arrow": false,
+        "points": [
+          [
+            145,
+            323
+          ],
+          [
+            220,
+            390
+          ],
+          [
+            220,
+            645
+          ],
+          [
+            340,
+            645
+          ]
+        ]
+      },
+      {
+        "from": "m",
+        "to": "h",
+        "arrow": false,
+        "points": [
+          [
+            145,
+            718
+          ],
+          [
+            285,
+            755
+          ],
+          [
+            285,
+            790
+          ],
+          [
+            910,
+            790
+          ],
+          [
+            910,
+            770
+          ]
+        ]
+      }
+    ],
+    "notes": [
+      "The local user is a workflow actor, not an implemented authenticated role.",
+      "Transcript segments remain read-only; review edits affect participants, tasks and summary."
+    ]
+  },
+  "components": {
+    "name": "components",
+    "title": "Hattama: implemented components",
+    "width": 1200,
+    "height": 1080,
+    "nodes": [
+      {
+        "id": "web",
+        "x": 420,
+        "y": 95,
+        "w": 360,
+        "h": 85,
+        "label": "React / Vite / TypeScript\nLocal browser",
+        "kind": "box"
+      },
+      {
+        "id": "bd",
+        "x": 40,
+        "y": 230,
+        "w": 1120,
+        "h": 700,
+        "label": "Backend and model processes",
+        "kind": "container"
+      },
+      {
+        "id": "api",
+        "x": 365,
+        "y": 285,
+        "w": 470,
+        "h": 95,
+        "label": "FastAPI API\nUpload, status, review, export",
+        "kind": "system"
+      },
+      {
+        "id": "db",
+        "x": 100,
+        "y": 485,
+        "w": 340,
+        "h": 90,
+        "label": "SQLite WAL\nMeetings, jobs, result JSON",
+        "kind": "box"
+      },
+      {
+        "id": "files",
+        "x": 760,
+        "y": 485,
+        "w": 340,
+        "h": 90,
+        "label": "Local files\nAudio and DOCX export",
+        "kind": "box"
+      },
+      {
+        "id": "w",
+        "x": 100,
+        "y": 690,
+        "w": 340,
+        "h": 90,
+        "label": "Single Python worker\nClaim persisted queued job",
+        "kind": "box"
+      },
+      {
+        "id": "ai",
+        "x": 650,
+        "y": 680,
+        "w": 450,
+        "h": 120,
+        "label": "Child-process model stages\nMixed-CTC ASR / sherpa ONNX\n4-bit Qwen3-4B generation",
+        "kind": "box"
+      },
+      {
+        "id": "result",
+        "x": 650,
+        "y": 845,
+        "w": 450,
+        "h": 60,
+        "label": "Validate structured minutes",
+        "kind": "box"
+      }
+    ],
+    "edges": [
+      {
+        "from": "web",
+        "to": "api",
+        "label": "HTTP + status polling",
+        "label_pos": [
+          805,
+          215
+        ]
+      },
+      {
+        "from": "api",
+        "to": "db",
+        "points": [
+          [
+            460,
+            380
+          ],
+          [
+            460,
+            430
+          ],
+          [
+            270,
+            430
+          ],
+          [
+            270,
+            485
+          ]
+        ],
+        "label": "Metadata / review",
+        "label_pos": [
+          275,
+          415
+        ]
+      },
+      {
+        "from": "api",
+        "to": "files",
+        "points": [
+          [
+            740,
+            380
+          ],
+          [
+            740,
+            430
+          ],
+          [
+            930,
+            430
+          ],
+          [
+            930,
+            485
+          ]
+        ],
+        "label": "Upload / export",
+        "label_pos": [
+          925,
+          415
+        ]
+      },
+      {
+        "from": "db",
+        "to": "w",
+        "label": "Queued job",
+        "label_pos": [
+          350,
+          640
+        ]
+      },
+      {
+        "from": "w",
+        "to": "ai",
+        "label": "Run stages",
+        "label_pos": [
+          545,
+          725
+        ]
+      },
+      {
+        "from": "files",
+        "to": "ai",
+        "label": "Audio",
+        "label_pos": [
+          980,
+          635
+        ]
+      },
+      {
+        "from": "ai",
+        "to": "result"
+      },
+      {
+        "from": "result",
+        "to": "db",
+        "points": [
+          [
+            650,
+            875
+          ],
+          [
+            490,
+            875
+          ],
+          [
+            490,
+            530
+          ],
+          [
+            440,
+            530
+          ]
+        ],
+        "label": "Persist result / state",
+        "label_pos": [
+          560,
+          945
+        ]
+      }
+    ],
+    "notes": [
+      "Mac uses MLX; the Windows adapter uses PyTorch. Model stages execute locally.",
+      "No Redis, Celery, PostgreSQL, live provider or shared authentication in this baseline."
+    ]
+  },
+  "lifecycle": {
+    "name": "lifecycle",
+    "title": "Hattama: processing and saved review",
+    "width": 1200,
+    "height": 850,
+    "nodes": [
+      {
+        "id": "q",
+        "x": 50,
+        "y": 160,
+        "w": 230,
+        "h": 80,
+        "label": "Queued",
+        "kind": "box"
+      },
+      {
+        "id": "p",
+        "x": 480,
+        "y": 160,
+        "w": 230,
+        "h": 80,
+        "label": "Processing",
+        "kind": "box"
+      },
+      {
+        "id": "d",
+        "x": 900,
+        "y": 160,
+        "w": 230,
+        "h": 80,
+        "label": "Done",
+        "kind": "system"
+      },
+      {
+        "id": "f",
+        "x": 480,
+        "y": 385,
+        "w": 230,
+        "h": 80,
+        "label": "Failed",
+        "kind": "box"
+      },
+      {
+        "id": "o",
+        "x": 900,
+        "y": 385,
+        "w": 230,
+        "h": 95,
+        "label": "Immutable original\n+ latest review JSON",
+        "kind": "box"
+      },
+      {
+        "id": "r",
+        "x": 480,
+        "y": 620,
+        "w": 230,
+        "h": 100,
+        "label": "Save corrections\nexpected_revision",
+        "kind": "box"
+      },
+      {
+        "id": "x",
+        "x": 900,
+        "y": 620,
+        "w": 230,
+        "h": 100,
+        "label": "Export DOCX\nfrom saved revision",
+        "kind": "box"
+      }
+    ],
+    "edges": [
+      {
+        "from": "q",
+        "to": "p",
+        "label": "Worker claims",
+        "label_pos": [
+          380,
+          185
+        ]
+      },
+      {
+        "from": "p",
+        "to": "d",
+        "label": "Valid result",
+        "label_pos": [
+          800,
+          185
+        ]
+      },
+      {
+        "from": "p",
+        "to": "f",
+        "label": "Error / interrupted job",
+        "label_pos": [
+          605,
+          325
+        ]
+      },
+      {
+        "from": "f",
+        "to": "q",
+        "points": [
+          [
+            480,
+            425
+          ],
+          [
+            165,
+            425
+          ],
+          [
+            165,
+            240
+          ]
+        ],
+        "label": "Explicit retry",
+        "label_pos": [
+          315,
+          410
+        ]
+      },
+      {
+        "from": "d",
+        "to": "o"
+      },
+      {
+        "from": "o",
+        "to": "r",
+        "points": [
+          [
+            1015,
+            480
+          ],
+          [
+            1015,
+            560
+          ],
+          [
+            595,
+            560
+          ],
+          [
+            595,
+            620
+          ]
+        ],
+        "label": "Human review",
+        "label_pos": [
+          805,
+          545
+        ]
+      },
+      {
+        "from": "r",
+        "to": "x",
+        "label": "Saved version",
+        "label_pos": [
+          805,
+          700
+        ]
+      }
+    ],
+    "notes": [
+      "A stale expected_revision returns HTTP 409; there is no formal approval state or full version history.",
+      "Deletion is available only outside processing; the UI blocks export while edits are unsaved."
+    ]
+  }
+}

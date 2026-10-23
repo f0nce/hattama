@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" type="device">
+  <diagram id="lifecycle" name="Hattama: processing and saved review">
+    <mxGraphModel dx="1200" dy="850" grid="1" gridSize="10" page="1" pageWidth="1200" pageHeight="850">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="e0" value="Worker claims" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#52739d;fontFamily=Arial;fontSize=14;endArrow=block;" edge="1" parent="1" source="q" target="p">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e1" value="Valid result" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#52739d;fontFamily=Arial;fontSize=14;endArrow=block;" edge="1" parent="1" source="p" target="d">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2" value="Error / interrupted job" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#52739d;fontFamily=Arial;fontSize=14;endArrow=block;" edge="1" parent="1" source="p" target="f">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3" value="Explicit retry" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#52739d;fontFamily=Arial;fontSize=14;endArrow=block;" edge="1" parent="1" source="f" target="q">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="165" y="425" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#52739d;fontFamily=Arial;fontSize=14;endArrow=block;" edge="1" parent="1" source="d" target="o">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" value="Human review" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#52739d;fontFamily=Arial;fontSize=14;endArrow=block;" edge="1" parent="1" source="o" target="r">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1015" y="560" />
+              <mxPoint x="595" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6" value="Saved version" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#52739d;fontFamily=Arial;fontSize=14;endArrow=block;" edge="1" parent="1" source="r" target="x">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q" value="Queued" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff;strokeColor=#52739d;fontFamily=Arial;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="50" y="160" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p" value="Processing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff;strokeColor=#52739d;fontFamily=Arial;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="480" y="160" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d" value="Done" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f0fc;strokeColor=#52739d;fontFamily=Arial;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="900" y="160" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="f" value="Failed" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff;strokeColor=#52739d;fontFamily=Arial;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="480" y="385" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="o" value="Immutable original&lt;br&gt;+ latest review JSON" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff;strokeColor=#52739d;fontFamily=Arial;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="900" y="385" width="230" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="r" value="Save corrections&lt;br&gt;expected_revision" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff;strokeColor=#52739d;fontFamily=Arial;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="480" y="620" width="230" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="x" value="Export DOCX&lt;br&gt;from saved revision" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff;strokeColor=#52739d;fontFamily=Arial;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="900" y="620" width="230" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

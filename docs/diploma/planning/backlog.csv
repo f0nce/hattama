@@ -1,0 +1,67 @@
+Summary,Description,Planning ID (string),Planned owner (string),Priority (enum),State (state),Due Date (date)
+Record topic and scope agreement,"Expected outcome: Record topic and scope agreement.
+Acceptance criteria: Record agreed scope and remaining academic details; retain approval reference.",PLAN-01,Marsel,Normal,Open,2026-10-24
+Validate user evidence route,"Expected outcome: Validate user evidence route.
+Acceptance criteria: Record 3–5 real discussions/client agreement or an explicit authorised alternative; separate examples.",PLAN-02,Marsel,Critical,Open,2026-10-24
+Record user findings,"Expected outcome: Record user findings.
+Acceptance criteria: Anonymised findings link to requirement changes; no invented participant records.",PLAN-03,Kazbek,Major,Open,2026-11-06
+Review literature analysis,"Expected outcome: Review literature analysis.
+Acceptance criteria: Check eleven scientific studies and explain relevant limitations.",PLAN-04,Daryn,Major,Open,2026-10-24
+Review existing systems,"Expected outcome: Review existing systems.
+Acceptance criteria: Three systems use ten common criteria with source links.",PLAN-05,Kazbek,Normal,Open,2026-10-24
+Review technology and model alternatives,"Expected outcome: Review technology and model alternatives.
+Acceptance criteria: Compare current stack and Llama/Gemma/Nemotron; separate hypotheses from measurements.",PLAN-06,Daryn,Major,Open,2026-10-24
+Review baseline requirements,"Expected outcome: Review baseline requirements.
+Acceptance criteria: All 34 requirements have priority, status and acceptance checks.",PLAN-07,Marsel,Major,Open,2026-10-24
+Review current architecture diagrams,"Expected outcome: Review current architecture diagrams.
+Acceptance criteria: Context, use case and components match source; editable/export files open.",PLAN-08,Kazbek,Major,Open,2026-10-24
+Rehearse working interface,"Expected outcome: Rehearse working interface.
+Acceptance criteria: Upload, review, save and DOCX shown on target host; current limitations stated.",PLAN-09,Kazbek,Major,Open,2026-10-24
+Review evaluation protocol,"Expected outcome: Review evaluation protocol.
+Acceptance criteria: Data splits, metrics, baselines and resource conditions fixed before testing.",PLAN-10,Daryn,Major,Open,2026-11-06
+Restore YouTrack team access,"Expected outcome: Restore YouTrack team access.
+Acceptance criteria: Three real accounts access the project; URL supplied and issues assigned.",PLAN-11,Marsel,Major,Open,2026-11-06
+Obtain substantive supervisor review,"Expected outcome: Obtain substantive supervisor review.
+Acceptance criteria: Actual comments and resulting revisions recorded; draft is confirmed or replaced.",PLAN-12,Marsel,Major,Open,2026-10-24
+Document hackathon provenance,"Expected outcome: Document hackathon provenance.
+Acceptance criteria: Baseline commit, inherited work and account/name mapping documented.",PLAN-13,Marsel,Major,Open,2026-10-24
+Verify local deployment boundary,"Expected outcome: Verify local deployment boundary.
+Acceptance criteria: Loopback run and absence of public role claims verified.",PLAN-14,Kazbek,Major,Open,2026-11-06
+Verify upload and context handling,"Expected outcome: Verify upload and context handling.
+Acceptance criteria: Formats, limit, invalid metadata and unsafe filenames checked.",PLAN-15,Kazbek,Major,Open,2026-11-06
+Verify worker and retry recovery,"Expected outcome: Verify worker and retry recovery.
+Acceptance criteria: Interrupted job and failed-only retry behavior reproduced.",PLAN-16,Kazbek,Major,Open,2026-11-06
+Compare ASR candidates,"Expected outcome: Compare ASR candidates.
+Acceptance criteria: Same-data WER/CER for current mixed-CTC and feasible Whisper alternatives.",PLAN-17,Daryn,Major,Open,2026-11-27
+Evaluate speakers and evidence links,"Expected outcome: Evaluate speakers and evidence links.
+Acceptance criteria: DER and source-link validity measured; mapping errors analysed.",PLAN-18,Daryn,Major,Open,2026-11-27
+Implement extractive evaluation baseline,"Expected outcome: Implement extractive evaluation baseline.
+Acceptance criteria: Fixed cue rules evaluated on held-out transcripts without test-set tuning.",PLAN-19,Daryn,Normal,Open,2026-11-27
+Compare generation candidates,"Expected outcome: Compare generation candidates.
+Acceptance criteria: Current Qwen and feasible alternatives use identical evaluation examples; infeasible models labelled.",PLAN-20,Daryn,Major,Open,2026-12-18
+Verify review persistence and conflicts,"Expected outcome: Verify review persistence and conflicts.
+Acceptance criteria: Original preserved, edits survive restart, stale revision returns conflict.",PLAN-21,Kazbek,Major,Open,2026-11-06
+Verify DOCX output,"Expected outcome: Verify DOCX output.
+Acceptance criteria: Saved content and Kazakh characters verified in rendered exports.",PLAN-22,Kazbek,Major,Open,2026-11-06
+Verify library and processing visibility,"Expected outcome: Verify library and processing visibility.
+Acceptance criteria: Persisted meetings and actual stages/errors displayed accurately.",PLAN-23,Kazbek,Normal,Open,2026-11-06
+Confirm data permission and retention,"Expected outcome: Confirm data permission and retention.
+Acceptance criteria: Hackathon reuse/publication permissions checked and cleanup policy recorded.",PLAN-24,Marsel,Major,Open,2026-11-06
+Test malformed and adversarial input,"Expected outcome: Test malformed and adversarial input.
+Acceptance criteria: Input text cannot execute tasks; invalid result fails clearly.",PLAN-25,Daryn,Major,Open,2026-12-18
+Run frozen bilingual evaluation,"Expected outcome: Run frozen bilingual evaluation.
+Acceptance criteria: Results, failures, data counts and exact experiment manifests retained.",PLAN-26,Daryn,Major,Open,2027-01-22
+Run paired usability study,"Expected outcome: Run paired usability study.
+Acceptance criteria: 6–8 users or disclosed actual sample; active time and quality compared.",PLAN-27,Marsel,Normal,Open,2027-01-22
+Verify performance and accessibility,"Expected outcome: Verify performance and accessibility.
+Acceptance criteria: Declared-host latency/memory and keyboard/small-screen checks documented.",PLAN-28,Kazbek,Normal,Open,2027-01-22
+Review and tag first submission,"Expected outcome: Review and tag first submission.
+Acceptance criteria: Peer-reviewed merged commit tagged pre-defense-1 with limitations.",PLAN-29,Marsel,Major,Open,2026-10-24
+Prepare final defense evidence,"Expected outcome: Prepare final defense evidence.
+Acceptance criteria: Individual contributions and completed experiments traceable; actual defense date confirmed.",PLAN-30,Marsel,Normal,Open,2027-01-22
+Assess live ingestion feasibility,"Expected outcome: Assess live ingestion feasibility.
+Acceptance criteria: Provider/room-capture permission, budget and scope decision documented.",PLAN-31,Marsel,Normal,Open,2026-12-18
+Prototype live extension if approved,"Expected outcome: Prototype live extension if approved.
+Acceptance criteria: Ordered provisional text, gaps and measured latency; no claim before implementation.",PLAN-32,Daryn,Normal,Open,2027-01-22
+Review future revision and role contracts,"Expected outcome: Review future revision and role contracts.
+Acceptance criteria: Explicit decision on full history/shared approval; changes require agreed contract.",PLAN-33,Kazbek,Normal,Open,2027-01-22

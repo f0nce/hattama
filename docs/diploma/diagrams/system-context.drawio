@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" type="device">
+  <diagram id="system-context" name="Hattama: local application context">
+    <mxGraphModel dx="1200" dy="760" grid="1" gridSize="10" page="1" pageWidth="1200" pageHeight="760">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="e0" value="Local browser" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#52739d;fontFamily=Arial;fontSize=14;endArrow=block;" edge="1" parent="1" source="u" target="s">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e1" value="Export" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#52739d;fontFamily=Arial;fontSize=14;endArrow=block;" edge="1" parent="1" source="s" target="r">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2" value="Configuration" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#52739d;fontFamily=Arial;fontSize=14;endArrow=block;" edge="1" parent="1" source="m" target="s">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3" value="Upload" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#52739d;fontFamily=Arial;fontSize=14;endArrow=block;" edge="1" parent="1" source="a" target="s">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="512" />
+              <mxPoint x="330" y="365" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u" value="Meeting coordinator&lt;br&gt;Upload and review" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff;strokeColor=#52739d;fontFamily=Arial;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="35" y="210" width="230" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="s" value="Hattama workstation&lt;br&gt;Kazakh / Russian audio&lt;br&gt;Local neural processing&lt;br&gt;Source-linked tasks&lt;br&gt;Human correction" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f0fc;strokeColor=#52739d;fontFamily=Arial;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="400" y="180" width="430" height="245" as="geometry" />
+        </mxCell>
+        <mxCell id="r" value="DOCX minutes&lt;br&gt;Saved review revision" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff;strokeColor=#52739d;fontFamily=Arial;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="945" y="210" width="220" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="m" value="Maintainer&lt;br&gt;Set up models and launch services" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff;strokeColor=#52739d;fontFamily=Arial;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="400" y="535" width="430" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="a" value="Permitted recording&lt;br&gt;WAV / MP3 / M4A / FLAC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff;strokeColor=#52739d;fontFamily=Arial;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="35" y="465" width="230" height="95" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
