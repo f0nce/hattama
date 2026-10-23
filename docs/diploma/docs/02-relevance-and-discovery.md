@@ -2,7 +2,7 @@
 
 ## Evidence that is available
 
-Three forms of evidence are kept separate: published studies, repository observations and direct user discovery. The topic agreement is reported by the team. No completed local interviews or client agreement have been supplied. The team reports permission to use constructed examples; such examples below are labelled illustrative and are not participant testimony. If the committee accepts an alternative to its written interview requirement, retain that explicit decision.
+The evidence base combines published studies, repository observations and the team-reported hackathon achievement. The team reports winning a hackathon with Hattama and agreement on the diploma topic. The event name, date and award reference should be attached. Records of user discussions or a client agreement are needed to substantiate direct user discovery. The team reports permission to use constructed examples; such examples below are labelled illustrative and are not participant testimony. If the committee accepts an alternative to its written interview requirement, retain that explicit decision.
 
 | Evidence | Verified observation or author report | Project implication and limit |
 | --- | --- | --- |

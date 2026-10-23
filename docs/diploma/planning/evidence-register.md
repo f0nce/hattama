@@ -8,4 +8,6 @@
 | EV-04 | Hattama Windows evidence at 13d2271 | Omitted deadline and incorrect summary in a recorded run | Implementation-specific failure example; synthetic input |
 | EV-05 | Hattama source/contracts at 13d2271 | Upload, review persistence and DOCX implemented; live absent | Defines baseline scope |
 
+| EV-06 | Team communication, 24 October 2026 | Team reports winning a hackathon with Hattama | Project achievement; event details and award reference pending; not interview evidence |
+
 No completed local interview is registered. Constructed scenarios in the relevance chapter are design examples only. Keep actual participant identities and recordings outside public documentation. If an alternative evidence route is formally accepted, record the exact decision separately.

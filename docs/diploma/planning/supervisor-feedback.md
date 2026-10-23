@@ -1,6 +1,6 @@
 # Supervisor feedback log
 
-Supervisor: Elvira Aitmukhambetovna. Topic agreement is reported by the team. A draft substantive review is supplied in docs/11-supervisor-review.md for confirmation; it is not an actual received review.
+Supervisor: Aitmukhanbetova Elvira, Senior Lecturer. Topic agreement is reported by the team. A draft substantive review is supplied in docs/11-supervisor-review.md for confirmation; it is not an actual received review.
 
 | Actual date | Reviewed version | Supervisor comment | Team response | Owner | PR or commit and verification |
 | --- | --- | --- | --- | --- | --- |

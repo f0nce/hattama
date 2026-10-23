@@ -12,7 +12,7 @@ Hattama is an existing local meeting-minutes application developed during a hack
 | Uranov Daryn | Speech and language models, diarization, evaluation data and reproducible experiments |
 | Tazhibayev Marsel | Team lead, shared contracts, scope, integration, review and submission coordination |
 
-Supervisor: Elvira Aitmukhambetovna. The team reports that the topic is agreed. University/programme details and the final defense date remain to be supplied. Individual Git accounts must be mapped to these real names by the team; this report does not infer identity from nicknames.
+Supervisor: Aitmukhanbetova Elvira, Senior Lecturer. The team reports that the topic is agreed. Institution: Astana IT University, School of Software Engineering. Programme: Software Engineering. Group: SE-2403. Submission year: 2026. The final defense date remains to be confirmed. Individual Git accounts must be mapped to these real names by the team; this report does not infer identity from nicknames.
 
 ## Problem and target users
 

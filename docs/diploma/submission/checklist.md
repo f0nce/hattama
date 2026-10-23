@@ -2,7 +2,7 @@
 
 | Rubric component | Prepared artifact | Remaining evidence or check |
 | --- | --- | --- |
-| Proposal | 01-proposal and existing application | Academic details and account mapping |
+| Proposal | 01-proposal and existing application | Exact dates and account mapping |
 | Relevance | Published evidence and labelled design scenarios | Actual discussions/client agreement or explicit accepted alternative |
 | Literature | Eleven scientific publications; 35 total references | Team understanding and source review |
 | Existing systems | Three systems and ten criteria | Explain documented vs unverified capabilities |

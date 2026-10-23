@@ -2,7 +2,7 @@
 
 ## Confirmed status
 
-Supervisor: Elvira Aitmukhambetovna. The team reports that the topic has been agreed. No verbatim deliverable-specific review, signature or approval date has been supplied. The following is a prepared draft for the supervisor to edit or adopt, not a received endorsement. The team reports that drafting assistance is permitted; that permission does not establish that the supervisor has reviewed this version.
+Supervisor: Aitmukhanbetova Elvira, Senior Lecturer. The team reports that the topic has been agreed. No verbatim deliverable-specific review, signature or approval date has been supplied. The following is a prepared draft for the supervisor to edit or adopt, not a received endorsement. The team reports that drafting assistance is permitted; that permission does not establish that the supervisor has reviewed this version.
 
 ## Draft review text for confirmation
 

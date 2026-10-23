@@ -2,7 +2,7 @@
 
 ## Before the first pre-defense
 
-1. Confirm university/programme details, actual submission/defense dates and the team account-to-name mapping. Topic agreement is already reported.
+1. Confirm the exact submission/defense dates and the team account-to-name mapping. The title page uses Astana IT University, School of Software Engineering, Software Engineering, SE-2403 and 2026. Topic agreement is already reported.
 2. Have a teammate review this documentation PR and merge only after checks and substantive review. The application source is preserved; this update does not impersonate individual student contributions.
 3. Confirm the supervisor review draft or replace it with actual comments. Retain the reviewed version, date and changes. No signature has been supplied.
 4. Complete the real user-evidence route or obtain explicit confirmation that the illustrative/secondary-evidence alternative is accepted under the rubric. Published studies and constructed scenarios are labelled.

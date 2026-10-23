@@ -10,7 +10,9 @@ Hattama is an existing local application for turning meeting recordings into sou
 | Uranov Daryn | Machine learning and backend |
 | Tazhibayev Marsel | Team lead and integration |
 
-Supervisor: **Elvira Aitmukhambetovna**. Topic agreement is reported by the team.
+Institution: **Astana IT University, School of Software Engineering**. Programme: **Software Engineering**. Group: **SE-2403**. Year: **2026**.
+
+Supervisor: **Aitmukhanbetova Elvira, Senior Lecturer**. Topic agreement is reported by the team.
 
 **Current implementation:** React/Vite and TypeScript, FastAPI, SQLite/local files, separate Python worker, mixed-CTC ASR, sherpa-onnx diarization and quantized Qwen3-4B-Instruct-2507. Upload, saved review and DOCX export exist. Live ingestion, complete revision history and authenticated shared approval remain extensions. The hackathon baseline is commit `13d2271`.
 
