@@ -1,3 +1,27 @@
+# Hattama diploma project
+
+**Development of a Platform for Automated Meeting Minutes Generation in Kazakh and Russian Using Neural Network Models**
+
+Hattama is an existing local application for turning meeting recordings into source-linked tasks, summaries and editable minutes. Its diploma development evaluates bilingual accuracy, reliable review and preparation effort. Target users are meeting coordinators, secretaries and project teams. Expected outcomes are a reproducible application, measured model comparisons and a validated workflow; improvement claims remain subject to evaluation.
+
+| Team member | Responsibility |
+| --- | --- |
+| Akhmetov Kazbek | Frontend and backend |
+| Uranov Daryn | Machine learning and backend |
+| Tazhibayev Marsel | Team lead and integration |
+
+Supervisor: **Elvira Aitmukhambetovna**. Topic agreement is reported by the team.
+
+**Current implementation:** React/Vite and TypeScript, FastAPI, SQLite/local files, separate Python worker, mixed-CTC ASR, sherpa-onnx diarization and quantized Qwen3-4B-Instruct-2507. Upload, saved review and DOCX export exist. Live ingestion, complete revision history and authenticated shared approval remain extensions. The hackathon baseline is commit `13d2271`.
+
+**YouTrack:** created according to the team; access and URL are pending. The [33-task backlog](docs/diploma/planning/backlog.csv) is local planning, not a verified live tracker.
+
+[Diploma documentation and deliverables](docs/diploma/README.md) · [Requirements](docs/diploma/docs/06-requirements.md) · [Model comparison](docs/diploma/docs/05-technology-comparison.md) · [Diagrams](docs/diploma/diagrams/README.md) · [Remaining submission work](docs/diploma/submission/manual-work.md)
+
+The operational guide below retains the existing setup, execution and testing instructions. The English diploma package distinguishes recorded hackathon results from new verification and keeps draft review text separate from actual supervisor feedback.
+
+---
+
 ![Хаттама — из записи совещания в понятный протокол](docs/assets/readme-banner.svg)
 
 # Хаттама
@@ -29,7 +53,7 @@
 
 | Что нужно | Требование |
 |---|---|
-| Git | Доступ к этому закрытому репозиторию |
+| Git | Доступ к репозиторию hattama |
 | Python | **3.12** для Mac/Linux; Windows-профиль проверен на **3.14.6** |
 | Node.js | **22.13+**, вместе с npm |
 | Диск | **12 ГБ для весов, частей и истории Git**, плюс место для зависимостей |
@@ -38,8 +62,8 @@
 ### 2. Скачайте проект
 
 ```bash
-git clone --depth 1 https://github.com/BAITC-Hacks/hack-37d3e924-bbc.git
-cd hack-37d3e924-bbc
+git clone --depth 1 https://github.com/f0nce/hattama.git
+cd hattama
 ```
 
 Уже есть копия проекта? Обновите её через `git pull`. Все команды ниже выполняются **из корня репозитория**.

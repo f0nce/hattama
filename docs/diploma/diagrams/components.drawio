@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" type="device">
+  <diagram id="components" name="Hattama: implemented components">
+    <mxGraphModel dx="1200" dy="1080" grid="1" gridSize="10" page="1" pageWidth="1200" pageHeight="1080">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bd" value="Backend and model processes" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f4f7fc;strokeColor=#a3b5aa;fontFamily=Arial;fontSize=17;verticalAlign=top;align=left;spacing=14;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="230" width="1120" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="e0" value="HTTP + status polling" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#52739d;fontFamily=Arial;fontSize=14;endArrow=block;" edge="1" parent="1" source="web" target="api">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e1" value="Metadata / review" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#52739d;fontFamily=Arial;fontSize=14;endArrow=block;" edge="1" parent="1" source="api" target="db">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="430" />
+              <mxPoint x="270" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2" value="Upload / export" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#52739d;fontFamily=Arial;fontSize=14;endArrow=block;" edge="1" parent="1" source="api" target="files">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="740" y="430" />
+              <mxPoint x="930" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3" value="Queued job" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#52739d;fontFamily=Arial;fontSize=14;endArrow=block;" edge="1" parent="1" source="db" target="w">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" value="Run stages" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#52739d;fontFamily=Arial;fontSize=14;endArrow=block;" edge="1" parent="1" source="w" target="ai">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" value="Audio" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#52739d;fontFamily=Arial;fontSize=14;endArrow=block;" edge="1" parent="1" source="files" target="ai">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#52739d;fontFamily=Arial;fontSize=14;endArrow=block;" edge="1" parent="1" source="ai" target="result">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7" value="Persist result / state" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#52739d;fontFamily=Arial;fontSize=14;endArrow=block;" edge="1" parent="1" source="result" target="db">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="875" />
+              <mxPoint x="490" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="web" value="React / Vite / TypeScript&lt;br&gt;Local browser" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff;strokeColor=#52739d;fontFamily=Arial;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="420" y="95" width="360" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="api" value="FastAPI API&lt;br&gt;Upload, status, review, export" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f0fc;strokeColor=#52739d;fontFamily=Arial;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="365" y="285" width="470" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="db" value="SQLite WAL&lt;br&gt;Meetings, jobs, result JSON" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff;strokeColor=#52739d;fontFamily=Arial;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="100" y="485" width="340" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="files" value="Local files&lt;br&gt;Audio and DOCX export" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff;strokeColor=#52739d;fontFamily=Arial;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="760" y="485" width="340" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="w" value="Single Python worker&lt;br&gt;Claim persisted queued job" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff;strokeColor=#52739d;fontFamily=Arial;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="100" y="690" width="340" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ai" value="Child-process model stages&lt;br&gt;Mixed-CTC ASR / sherpa ONNX&lt;br&gt;4-bit Qwen3-4B generation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff;strokeColor=#52739d;fontFamily=Arial;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="650" y="680" width="450" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="result" value="Validate structured minutes" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff;strokeColor=#52739d;fontFamily=Arial;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="650" y="845" width="450" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

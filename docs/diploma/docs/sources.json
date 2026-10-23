@@ -1,0 +1,282 @@
+[
+  {
+    "id": "S01",
+    "kind": "Scientific",
+    "title": "Mussakhojayeva, S., Khassanov, Y., and Varol, H. A. (2022). KSC2: An Industrial-Scale Open-Source Kazakh Speech Corpus. Interspeech 2022, 1367–1371.",
+    "url": "https://www.isca-archive.org/interspeech_2022/mussakhojayeva22_interspeech.html",
+    "use": "Kazakh speech and code-switching; informs ASR development data, not meeting-summary ground truth.",
+    "accessed": "2026-10-23"
+  },
+  {
+    "id": "S02",
+    "kind": "Scientific",
+    "title": "Radford, A., et al. (2023). Robust Speech Recognition via Large-Scale Weak Supervision. ICML, PMLR 202, 28492–28518.",
+    "url": "https://proceedings.mlr.press/v202/radford23a",
+    "use": "Multilingual ASR starting point; local language and recording conditions still require measurement.",
+    "accessed": "2026-10-23"
+  },
+  {
+    "id": "S03",
+    "kind": "Scientific",
+    "title": "Bain, M., Huh, J., Han, T., and Zisserman, A. (2023). WhisperX: Time-Accurate Speech Transcription of Long-Form Audio. Interspeech 2023.",
+    "url": "https://www.isca-archive.org/interspeech_2023/bain23_interspeech.html",
+    "use": "Long audio segmentation and alignment; Kazakh alignment availability must be checked.",
+    "accessed": "2026-10-23"
+  },
+  {
+    "id": "S04",
+    "kind": "Scientific",
+    "title": "Bredin, H. (2023). pyannote.audio 2.1 speaker diarization pipeline: principle, benchmark, and recipe. Interspeech 2023, 1983–1987.",
+    "url": "https://www.isca-archive.org/interspeech_2023/bredin23_interspeech.html",
+    "use": "Speaker clustering motivates editable anonymous labels and a separate diarization evaluation.",
+    "accessed": "2026-10-23"
+  },
+  {
+    "id": "S05",
+    "kind": "Scientific",
+    "title": "Zhong, M., et al. (2021). QMSum: A New Benchmark for Query-based Multi-domain Meeting Summarization. NAACL, 5905–5921.",
+    "url": "https://aclanthology.org/2021.naacl-main.472/",
+    "use": "Locate relevant discussion before summarization; English benchmark does not establish bilingual quality.",
+    "accessed": "2026-10-23"
+  },
+  {
+    "id": "S06",
+    "kind": "Scientific",
+    "title": "Kim, H., Cho, M., and Na, S.-H. (2023). ExplainMeetSum: A Dataset for Explainable Meeting Summarization Aligned with Human Intent. ACL, 13079–13098.",
+    "url": "https://aclanthology.org/2023.acl-long.731/",
+    "use": "Evidence-aligned summaries motivate source segment links and review.",
+    "accessed": "2026-10-23"
+  },
+  {
+    "id": "S07",
+    "kind": "Scientific",
+    "title": "Hu, Y., et al. (2023). MeetingBank: A Benchmark Dataset for Meeting Summarization. ACL, 16409–16423.",
+    "url": "https://aclanthology.org/2023.acl-long.906/",
+    "use": "Long meeting transcripts and professional minutes inform chunking and structured output.",
+    "accessed": "2026-10-23"
+  },
+  {
+    "id": "S08",
+    "kind": "Scientific",
+    "title": "Fabbri, A. R., et al. (2021). SummEval: Re-evaluating Summarization Evaluation. TACL 9, 391–409.",
+    "url": "https://aclanthology.org/2021.tacl-1.24/",
+    "use": "Human evaluation complements automatic overlap metrics; news-domain findings need cautious transfer.",
+    "accessed": "2026-10-23"
+  },
+  {
+    "id": "S09",
+    "kind": "Scientific",
+    "title": "Kirstein, F., Ruas, T., and Gipp, B. (2025). What’s Wrong? Refining Meeting Summaries with LLM Feedback. COLING, 2100–2120.",
+    "url": "https://aclanthology.org/2025.coling-main.143/",
+    "use": "Meeting error analysis motivates explicit checks for omissions, unsupported claims and wrong attribution.",
+    "accessed": "2026-10-23"
+  },
+  {
+    "id": "S10",
+    "kind": "Scientific",
+    "title": "Kirstein, F., Ruas, T., and Gipp, B. (2025). Is my Meeting Summary Good? Estimating Quality with a Multi-LLM Evaluator. COLING Industry Track, 561–574.",
+    "url": "https://aclanthology.org/2025.coling-industry.48/",
+    "use": "Model-based evaluation is an auxiliary signal; bilingual human adjudication remains the reference.",
+    "accessed": "2026-10-23"
+  },
+  {
+    "id": "S11",
+    "kind": "Product documentation",
+    "title": "Fireflies.ai. Supported languages.",
+    "url": "https://guide.fireflies.ai/articles/2973706448",
+    "use": "Kazakh and Russian are listed for transcription and summaries; exact mixed-pair quality is unverified.",
+    "accessed": "2026-10-23"
+  },
+  {
+    "id": "S12",
+    "kind": "Product documentation",
+    "title": "Fireflies.ai. How to upload and transcribe audio or video files.",
+    "url": "https://guide.fireflies.ai/articles/3893959957-how-to-upload-and-transcribe-audio-or-video-files-in-fireflies",
+    "use": "Upload, transcript, summary and action-item workflow supports competitor comparison.",
+    "accessed": "2026-10-23"
+  },
+  {
+    "id": "S13",
+    "kind": "Product documentation",
+    "title": "Notta. What languages does Notta support?",
+    "url": "https://support.notta.ai/hc/en-us/articles/4403155631131-What-languages-does-Notta-support",
+    "use": "Russian appears in transcription lists; Kazakh appears as a translation target, which is not ASR support.",
+    "accessed": "2026-10-23"
+  },
+  {
+    "id": "S14",
+    "kind": "Product documentation",
+    "title": "Notta. Bilingual transcription and translation on the web.",
+    "url": "https://support.notta.ai/hc/en-us/articles/23437010425755-Bilingual-transcription-translation-Web",
+    "use": "Uploaded and live bilingual workflows; the listed source languages do not include Kazakh.",
+    "accessed": "2026-10-23"
+  },
+  {
+    "id": "S15",
+    "kind": "Product documentation",
+    "title": "Notta. Edit, regenerate or delete AI Notes.",
+    "url": "https://support.notta.ai/hc/en-us/articles/37290499079835-Edit-Regenerate-or-Delete-AI-Notes",
+    "use": "Editable AI notes and tasks inform comparison of correction workflows.",
+    "accessed": "2026-10-23"
+  },
+  {
+    "id": "S16",
+    "kind": "Product documentation",
+    "title": "Notta. Export AI summaries.",
+    "url": "https://support.notta.ai/hc/en-us/articles/37290527491739-Export-AI-summaries",
+    "use": "Documented notes export, subject to access and plan conditions.",
+    "accessed": "2026-10-23"
+  },
+  {
+    "id": "S17",
+    "kind": "Product documentation",
+    "title": "Otter.ai. Supported languages.",
+    "url": "https://help.otter.ai/hc/en-us/articles/360047247414-Supported-languages",
+    "use": "The published transcription list does not include Kazakh or Russian.",
+    "accessed": "2026-10-23"
+  },
+  {
+    "id": "S18",
+    "kind": "Product documentation",
+    "title": "Otter.ai. What is Otter?",
+    "url": "https://help.otter.ai/hc/en-us/articles/360035266494-What-is-Otter",
+    "use": "Import, editing, sharing and export workflows.",
+    "accessed": "2026-10-23"
+  },
+  {
+    "id": "S19",
+    "kind": "Product documentation",
+    "title": "Otter.ai. Meeting Summary Overview.",
+    "url": "https://help.otter.ai/hc/en-us/articles/9156381229079-Meeting-Summary-Overview",
+    "use": "Meeting summaries and action items are established competitor features.",
+    "accessed": "2026-10-23"
+  },
+  {
+    "id": "S20",
+    "kind": "Technical documentation",
+    "title": "OpenAI. Whisper repository and model information.",
+    "url": "https://github.com/openai/whisper",
+    "use": "Multilingual transcription candidates; pin model revision and decoding settings.",
+    "accessed": "2026-10-23"
+  },
+  {
+    "id": "S21",
+    "kind": "Technical documentation",
+    "title": "Qwen team. Qwen3-4B-Instruct-2507 model card.",
+    "url": "https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507",
+    "use": "Upstream model for the current quantized local generator; model context is not the application context limit.",
+    "accessed": "2026-10-23"
+  },
+  {
+    "id": "S22",
+    "kind": "Technical documentation",
+    "title": "FastAPI. Features.",
+    "url": "https://fastapi.tiangolo.com/features/",
+    "use": "Typed API schemas and documented interfaces for the Python model pipeline.",
+    "accessed": "2026-10-23"
+  },
+  {
+    "id": "S23",
+    "kind": "Technical documentation",
+    "title": "Celery. Introduction.",
+    "url": "https://docs.celeryq.dev/en/stable/getting-started/introduction.html",
+    "use": "Dedicated background workers with a broker; application must enforce idempotency.",
+    "accessed": "2026-10-23"
+  },
+  {
+    "id": "S24",
+    "kind": "Technical documentation",
+    "title": "PostgreSQL. Transaction isolation.",
+    "url": "https://www.postgresql.org/docs/current/transaction-iso.html",
+    "use": "Transactional revision and approval checks; concurrency policies require explicit design.",
+    "accessed": "2026-10-23"
+  },
+  {
+    "id": "S25",
+    "kind": "Workflow documentation",
+    "title": "JetBrains. Import from CSV in YouTrack Cloud.",
+    "url": "https://www.jetbrains.com/help/youtrack/cloud/import-from-csv.html",
+    "use": "Current CSV workflow uses Google Sheets as an intermediary; manual task creation is an alternative.",
+    "accessed": "2026-10-23"
+  },
+  {
+    "id": "S26",
+    "kind": "Technical documentation",
+    "title": "Zoom. Add Realtime Media Streams to your app.",
+    "url": "https://developers.zoom.us/docs/rtms/meetings/add-features/",
+    "use": "Audio-only authorised live connector requires app scopes, events and Developer Pack credits.",
+    "accessed": "2026-10-23"
+  },
+  {
+    "id": "S27",
+    "kind": "Technical documentation",
+    "title": "Google. Get started with Meet Media API.",
+    "url": "https://developers.google.com/workspace/meet/media-api/guides/get-started",
+    "use": "Current preview access constraints support deferring this connector.",
+    "accessed": "2026-10-23"
+  },
+  {
+    "id": "S28",
+    "kind": "Scientific",
+    "title": "Chen, Z., Futian, J., Deng, Y., He, C., and Li, B. (2025). Meetalk: Retrieval-Augmented and Adaptively Personalized Meeting Summarization with Knowledge Learning from User Corrections. KnowFM.",
+    "url": "https://aclanthology.org/2025.knowllm-1.9/",
+    "use": "Published user-study rationale for correction and review; not interviews conducted by our team.",
+    "accessed": "2026-10-23"
+  },
+  {
+    "id": "S29",
+    "kind": "Technical",
+    "title": "Meta. Llama 3.1 8B Instruct model card.",
+    "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+    "use": "Comparison candidate; Kazakh and Russian are outside the explicitly supported language list.",
+    "accessed": "2026-10-23"
+  },
+  {
+    "id": "S30",
+    "kind": "Technical",
+    "title": "Google DeepMind. Gemma 3 12B IT model card.",
+    "url": "https://huggingface.co/google/gemma-3-12b-it",
+    "use": "Larger multilingual generation candidate; assess resource fit and bilingual minutes quality.",
+    "accessed": "2026-10-23"
+  },
+  {
+    "id": "S31",
+    "kind": "Technical",
+    "title": "NVIDIA. Nemotron 3 Nano 30B A3B BF16 model card.",
+    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16",
+    "use": "MoE comparison candidate; active parameters do not equal stored model size.",
+    "accessed": "2026-10-23"
+  },
+  {
+    "id": "S32",
+    "kind": "Technical",
+    "title": "SQLite. Appropriate Uses For SQLite.",
+    "url": "https://www.sqlite.org/whentouse.html",
+    "use": "Supports embedded local storage; multiwriter server use changes the tradeoff.",
+    "accessed": "2026-10-23"
+  },
+  {
+    "id": "S33",
+    "kind": "Technical",
+    "title": "k2 fsa. sherpa onnx Speaker Diarization documentation.",
+    "url": "https://k2-fsa.github.io/sherpa/onnx/speaker-diarization/index.html",
+    "use": "Segmentation and embedding components used by the local speaker pipeline.",
+    "accessed": "2026-10-23"
+  },
+  {
+    "id": "S34",
+    "kind": "Technical",
+    "title": "Serikbay, A. Kazakh Russian Mixed STT model card.",
+    "url": "https://huggingface.co/alibiserikbay/kazakh-russian-mixed-stt",
+    "use": "Current CTC speech-model provenance; local evaluation is still required.",
+    "accessed": "2026-10-23"
+  },
+  {
+    "id": "S35",
+    "kind": "Project evidence",
+    "title": "Hattama team. Application source and recorded hackathon evidence. Baseline commit 13d2271.",
+    "url": "https://github.com/f0nce/hattama/tree/13d2271e846f6566219d8899ac7bf3085865debd",
+    "use": "Primary evidence for implemented behavior, architecture, runtime limits and historical measurements.",
+    "accessed": "2026-10-23"
+  }
+]

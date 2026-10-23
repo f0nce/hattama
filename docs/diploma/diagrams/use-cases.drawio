@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" type="device">
+  <diagram id="use-cases" name="Hattama: implemented use cases">
+    <mxGraphModel dx="1200" dy="930" grid="1" gridSize="10" page="1" pageWidth="1200" pageHeight="930">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="b" value="Local Hattama application" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f4f7fc;strokeColor=#a3b5aa;fontFamily=Arial;fontSize=17;verticalAlign=top;align=left;spacing=14;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="90" width="860" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="e0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#52739d;fontFamily=Arial;fontSize=14;endArrow=none;" edge="1" parent="1" source="u" target="a">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="330" />
+              <mxPoint x="250" y="195" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#52739d;fontFamily=Arial;fontSize=14;endArrow=none;" edge="1" parent="1" source="u" target="b1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="245" y="330" />
+              <mxPoint x="245" y="130" />
+              <mxPoint x="910" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#52739d;fontFamily=Arial;fontSize=14;endArrow=none;" edge="1" parent="1" source="u" target="c">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#52739d;fontFamily=Arial;fontSize=14;endArrow=none;" edge="1" parent="1" source="u" target="d">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="350" />
+              <mxPoint x="250" y="275" />
+              <mxPoint x="910" y="275" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#52739d;fontFamily=Arial;fontSize=14;endArrow=none;" edge="1" parent="1" source="u" target="e">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="370" />
+              <mxPoint x="250" y="495" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#52739d;fontFamily=Arial;fontSize=14;endArrow=none;" edge="1" parent="1" source="u" target="f">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="235" y="370" />
+              <mxPoint x="235" y="420" />
+              <mxPoint x="910" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#52739d;fontFamily=Arial;fontSize=14;endArrow=none;" edge="1" parent="1" source="u" target="g">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="390" />
+              <mxPoint x="220" y="645" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#52739d;fontFamily=Arial;fontSize=14;endArrow=none;" edge="1" parent="1" source="m" target="h">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="285" y="755" />
+              <mxPoint x="285" y="790" />
+              <mxPoint x="910" y="790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u" value="Local user" style="shape=umlActor;whiteSpace=wrap;html=1;fillColor=#fff;strokeColor=#52739d;fontFamily=Arial;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="30" y="280" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="m" value="Maintainer" style="shape=umlActor;whiteSpace=wrap;html=1;fillColor=#fff;strokeColor=#52739d;fontFamily=Arial;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="30" y="675" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="a" value="Upload audio and context" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff;strokeColor=#52739d;fontFamily=Arial;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="340" y="160" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="b1" value="View processing status" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff;strokeColor=#52739d;fontFamily=Arial;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="760" y="160" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="c" value="Read original transcript" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff;strokeColor=#52739d;fontFamily=Arial;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="340" y="310" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="d" value="Map speaker labels" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff;strokeColor=#52739d;fontFamily=Arial;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="760" y="310" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="e" value="Edit tasks and summary" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff;strokeColor=#52739d;fontFamily=Arial;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="340" y="460" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="f" value="Export saved DOCX" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff;strokeColor=#52739d;fontFamily=Arial;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="760" y="460" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="g" value="Retry failed / delete" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff;strokeColor=#52739d;fontFamily=Arial;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="340" y="610" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="h" value="Configure local models" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff;strokeColor=#52739d;fontFamily=Arial;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="760" y="700" width="300" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
